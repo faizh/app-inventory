@@ -183,7 +183,10 @@
 							$('input[name="satuan"]').val(data.satuan)
 							$('input[name="max_hidden"]').val(data.stok)
 							$('input[name="jumlah"]').prop('readonly', false)
+							$('input[name="jumlah"]').prop('max', data.stok)
 							$('button#tambah').prop('disabled', false)
+
+							$()
 
 							$('input[name="sub_total"]').val($('input[name="jumlah"]').val() * $('input[name="harga_barang"]').val())
 							

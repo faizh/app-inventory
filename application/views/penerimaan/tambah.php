@@ -92,9 +92,13 @@
 													<label>Kode Barang</label>
 													<input type="text" name="kode_barang" value="" readonly class="form-control">
 												</div>
-												<div class="form-group col-4">
+												<div class="form-group col-3">
 													<label>Jumlah</label>
 													<input type="number" name="jumlah" value="" class="form-control" readonly min='1'>
+												</div>
+												<div class="form-group col-1">
+													<label for="">&nbsp;</label>
+													<button disabled type="button" class="btn btn-primary btn-block" id="tambah"><i class="fa fa-plus"></i></button>
 												</div>
 												<input type="hidden" name="satuan" value="">
 											</div>
